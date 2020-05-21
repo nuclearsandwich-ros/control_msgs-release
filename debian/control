@@ -1,0 +1,13 @@
+Source: ros-testing-control-msgs
+Section: misc
+Priority: optional
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-action-msgs, ros-testing-ament-cmake, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-builtin-interfaces, ros-testing-geometry-msgs, ros-testing-rosidl-default-generators, ros-testing-std-msgs, ros-testing-trajectory-msgs, ros-testing-ros-workspace, ros-testing-rosidl-typesupport-connext-c, ros-testing-rosidl-typesupport-connext-cpp, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp
+Homepage: http://ros.org/wiki/control_msgs
+Standards-Version: 3.9.2
+
+Package: ros-testing-control-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-action-msgs, ros-testing-builtin-interfaces, ros-testing-geometry-msgs, ros-testing-rosidl-default-runtime, ros-testing-std-msgs, ros-testing-trajectory-msgs, ros-testing-ros-workspace
+Description: control_msgs contains base messages and actions useful for controlling robots.
+ It provides representations for controller setpoints and joint and cartesian trajectories.
